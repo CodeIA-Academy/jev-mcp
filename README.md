@@ -101,6 +101,16 @@ Configuración típica (Claude Code, Codex, Cursor, Hermes y demás clientes MCP
 | `ask_jev` | Estado + preguntas tipadas → respuestas con probabilidades y confianza |
 | `list_jev_models` | Modelos y alias que acepta la cuenta |
 
+## Pruebas incluidas
+
+```bash
+bash smoke_test.sh           # handshake + tools/list + una llamada (funciona incluso sin clave)
+bash test_real.sh            # tres primitivas en una llamada, en español y en inglés (compara la confianza)
+bash demo_clasificador.sh    # el clasificador del ejemplo: recurso/blog/clase + tres Scores + guardrail
+```
+
+Las tres leen la clave del `.env` a través de `run.sh`, nunca de la línea de comandos.
+
 ## Cómo pedirlo bien (esto es la mitad del valor)
 
 1. **Una pregunta, un juicio atómico.** «¿Este mensaje expresa urgencia?» sí; «analiza esto y decide
