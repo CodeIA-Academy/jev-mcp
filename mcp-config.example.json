@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "jev": {
+      "command": "/ruta/a/jev-mcp/run.sh",
+      "env": {
+        "TYPESAFE_DEFAULT_MODEL": "jev-latest"
+      }
+    }
+  }
+}
