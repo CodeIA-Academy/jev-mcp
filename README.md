@@ -24,7 +24,7 @@ local que traduce «herramienta `ask_jev` con estos argumentos» a una llamada H
 ## Instalación rápida
 
 ```bash
-git clone https://github.com/<usuario>/jev-mcp.git
+git clone https://github.com/CodeIA-Academy/jev-mcp.git
 cd jev-mcp
 cp .env.example .env      # y pega tu clave de https://console.typesafe.ai/keys dentro
 bash smoke_test.sh        # handshake + tools/list + una llamada real
