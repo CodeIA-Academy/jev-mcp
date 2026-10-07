@@ -1,5 +1,7 @@
 # jev-mcp — Jev (TypeSafe) como herramienta para tus agentes
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/codeia-academy-jev-mcp-1lx6j5?v=b9bded8ea0082445c11c9c116a5d228d)](https://m8ven.ai/mcp/codeia-academy-jev-mcp-1lx6j5?s=readme)
+
 Servidor **MCP** mínimo (Python estándar, sin dependencias) que expone el modelo **Jev** de TypeSafe
 a cualquier agente: Claude Code, Codex, Cursor, Hermes, los agentes que lanzas desde **Orca**, etc.
 
